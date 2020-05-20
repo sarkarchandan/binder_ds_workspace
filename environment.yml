@@ -1,0 +1,15 @@
+name: binderenv
+channels:
+  - defaults
+dependencies:
+  - python>=3.8
+  - pip
+  - pip:
+    - numpy==1.18.* 
+    - matplotlib==3.2.* 
+    - pandas==1.0.* 
+    - seaborn==0.10.* 
+    - scipy==1.4.* 
+    - scikit-learn==0.23.* 
+    - Keras==2.3.* 
+    - tensorflow==2.2.*
